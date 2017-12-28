@@ -16,7 +16,7 @@ namespace cs_pe1_multiple3n5
             i = 0;
             /**
                 loops and calculates all the multiples of 5 (skips any multiples of 3
-                since they have already been added)
+                since they have already been added).
              */
             while ((i*5) < 1000000000) {
                 if ((i*5)%3 != 0)
